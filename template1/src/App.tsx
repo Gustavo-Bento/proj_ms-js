@@ -29,7 +29,7 @@ function App() {
       </div>
       {/* Header */}
       <header className="w3-display-container w3-content w3-wide" style={{ maxWidth: '1500px' }} id="home">
-        <img className="w3-image" src={Fundo}alt="mscalhas" width={1500} height="auto" />
+        <img className="w3-image" src={Fundo} alt="mscalhas" width={1500} height="auto" />
         <div className="w3-display-middle w3-margin-top w3-center">
           <h1 className="w3-xxlarge w3-text-white"><span className="w3-padding w3-black w3-opacity-min"><b>MS</b></span> <span className="w3-hide-small w3-text-light-grey">Calhas</span></h1>
         </div>
@@ -61,26 +61,26 @@ function App() {
           </div>
           <div className="w3-col l3 m6 w3-margin-bottom">
             <div className="w3-display-container">
-              <div className="w3-display-topleft w3-indigo w3-padding">Renovated</div>
+              <div className="w3-display-topleft w3-indigo w3-padding">Garagem</div>
               <img src={Img4} alt="House" style={{ width: '99%' }} className="w3-round" />
-            </div>
-          </div>
-          <div className="w3-col l3 m6 w3-margin-bottom">
-            <div className="w3-display-container">
-              <div className="w3-display-bottomright w3-indigo w3-padding">Barn House</div>
-              <img src={First} alt="House" style={{ width: '99%' }} className="w3-round" />
-            </div>
-          </div>
-          <div className="w3-col l3 m6 w3-margin-bottom">
-            <div className="w3-display-container">
-              <div className="w3-display-bottomright w3-indigo w3-padding">Dica</div>
-              <img src={Slide1} alt="House" style={{ width: '100%' }} className="w3-round" />
             </div>
           </div>
           <div className="w3-row-padding">
             <div className="w3-col l3 m6 w3-margin-bottom">
               <div className="w3-display-container">
-                <div className="w3-display-bottomright w3-indigo w3-padding">Dica</div>
+                <div className="w3-display-bottomleft w3-indigo w3-padding">Barn House</div>
+                <img src={First} alt="House" style={{ width: '99%' }} className="w3-round" />
+              </div>
+            </div>
+            <div className="w3-col l3 m6 w3-margin-bottom">
+              <div className="w3-display-container">
+                <div className="w3-display-bottomleft w3-indigo w3-padding">Dica</div>
+                <img src={Slide1} alt="House" style={{ width: '100%' }} className="w3-round" />
+              </div>
+            </div>
+            <div className="w3-col l3 m6 w3-margin-bottom">
+              <div className="w3-display-container">
+                <div className="w3-display-bottomleft w3-indigo w3-padding">Dica</div>
                 <img src={Slide2} alt="House" style={{ width: '99%' }} className="w3-round" />
               </div>
             </div>
@@ -95,9 +95,7 @@ function App() {
         {/* About Section */}
         <div className="w3-container w3-padding-32" id="about">
           <h3 className="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-            laboris nisi ut aliquip ex ea commodo consequat.
+          <p>Trabalhamos com Calhas, Rufos Pingadeiras, Hidráulica e manutenção. Profissionais qualificados e de confiança.
           </p>
         </div>
         <div className="w3-row-padding w3-grayscale">
