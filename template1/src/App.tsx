@@ -1,5 +1,11 @@
 import { useState } from 'react'
 import './App.css'
+import Img1 from './assets/img1.jpg'
+import Img2 from './assets/img2.jpg'
+import Img3 from './assets/img3.jpg'
+import Slide1 from './assets/slide1.jpg'
+import Slide2 from './assets/slide2.jpg'
+import Slide3 from './assets/slide3.jpg'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -34,40 +40,40 @@ function App() {
     <div className="w3-row-padding">
       <div className="w3-col l3 m6 w3-margin-bottom">
         <div className="w3-display-container">
-          <div className="w3-display-topleft w3-black w3-padding">Summer House</div>
-          <img src="/w3images/house5.jpg" alt="House" style={{width: '100%'}} />
+          <div className="w3-display-topleft w3-black w3-padding">Estruturas</div>
+          <img src={Img1} alt="House" style={{width: '100%'}} />
         </div>
       </div>
       <div className="w3-col l3 m6 w3-margin-bottom">
         <div className="w3-display-container">
-          <div className="w3-display-topleft w3-black w3-padding">Brick House</div>
-          <img src="/w3images/house2.jpg" alt="House" style={{width: '100%'}} />
+          <div className="w3-display-topleft w3-black w3-padding">Calhas</div>
+          <img src={Img2} alt="House" style={{width: '100%'}} />
         </div>
       </div>
       <div className="w3-col l3 m6 w3-margin-bottom">
         <div className="w3-display-container">
-          <div className="w3-display-topleft w3-black w3-padding">Renovated</div>
-          <img src="/w3images/house3.jpg" alt="House" style={{width: '100%'}} />
+          <div className="w3-display-topleft w3-black w3-padding">Telhado</div>
+          <img src={Img3} alt="House" style={{width: '100%'}} />
         </div>
       </div>
       <div className="w3-col l3 m6 w3-margin-bottom">
         <div className="w3-display-container">
-          <div className="w3-display-topleft w3-black w3-padding">Barn House</div>
-          <img src="/w3images/house4.jpg" alt="House" style={{width: '100%'}} />
+          <div className="w3-display-topleft w3-black w3-padding">Dica</div>
+          <img src={Slide1} alt="House" style={{width: '100%'}} />
         </div>
       </div>
     </div>
     <div className="w3-row-padding">
       <div className="w3-col l3 m6 w3-margin-bottom">
         <div className="w3-display-container">
-          <div className="w3-display-topleft w3-black w3-padding">Summer House</div>
-          <img src="/w3images/house2.jpg" alt="House" style={{width: '99%'}} />
+          <div className="w3-display-topleft w3-black w3-padding">Dica</div>
+          <img src={Slide2} alt="House" style={{width: '99%'}} />
         </div>
       </div>
       <div className="w3-col l3 m6 w3-margin-bottom">
         <div className="w3-display-container">
-          <div className="w3-display-topleft w3-black w3-padding">Brick House</div>
-          <img src="/w3images/house5.jpg" alt="House" style={{width: '99%'}} />
+          <div className="w3-display-topleft w3-black w3-padding">Dica</div>
+          <img src={Slide3} alt="House" style={{width: '99%'}} />
         </div>
       </div>
       <div className="w3-col l3 m6 w3-margin-bottom">
@@ -143,7 +149,7 @@ function App() {
   </div>
   {/* Footer */}
   <footer className="w3-center w3-black w3-padding-16">
-    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" className="w3-hover-text-green">w3.css</a></p>
+    <p>Powered by <a href="https://github.com/Gustavo-Bento" title="GFMB" target="_blank" className="w3-hover-text-green">GFMB</a></p>
   </footer>
 </div>
 
