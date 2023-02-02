@@ -20,7 +20,6 @@ function App() {
         <div className="w3-bar w3-white w3-wide w3-padding w3-card">
           <a href="#home" className="w3-bar-item w3-button">
             <img src={Logo} alt="Logo" style={{ width: '5%' }} className="w3-round" />
-            <b>MS</b> Calhas
           </a>
           {/* Float links to the right. Hide them on small screens */}
           <div className="w3-right w3-hide-small">
@@ -34,7 +33,7 @@ function App() {
       <header className="w3-display-container w3-content w3-wide" style={{ maxWidth: '1500px' }} id="home">
         <img className="w3-image" src={Fundo} alt="mscalhas" width={1500} height="auto" />
         <div className="w3-display-middle w3-margin-top w3-center">
-          <img src={Logo} alt="Logo" style={{ width: '20%' }} className="w3-round" />
+          <img src={Logo} alt="Logo" style={{ width: '20%' }} className="w3-round w3-opacity-min" />
             <h1 className="w3-xxlarge w3-text-white">
               <span className="w3-padding w3-opacity-min">
                 <b>MS</b>
@@ -77,25 +76,25 @@ function App() {
           <div className="w3-row-padding">
             <div className="w3-col l3 m6 w3-margin-bottom">
               <div className="w3-display-container">
-                <div className=" w3-display-topleft w3-indigo w3-padding w3-opacity-minpadding">Estrutura</div>
+                <div className=" w3-display-topleft w3-indigo w3-padding w3-opacity-min">Estrutura</div>
                 <img src={Img5} alt="House" style={{ width: '100%' }} className="w3-round" />
               </div>
             </div>
             <div className="w3-col l3 m6 w3-margin-bottom">
               <div className="w3-display-container">
-                <div className=" w3-display-topleft w3-indigo w3-padding w3-opacity-minpadding">Estrutura</div>
+                <div className=" w3-display-topleft w3-indigo w3-padding w3-opacity-min">Estrutura</div>
                 <img src={Img6} alt="House" style={{ width: '100%' }} className="w3-round" />
               </div>
             </div>
             <div className="w3-col l3 m6 w3-margin-bottom">
               <div className="w3-display-container">
-                <div className=" w3-display-topleft w3-indigo w3-padding w3-opacity-minpadding">Estrutura</div>
+                <div className=" w3-display-topleft w3-indigo w3-padding w3-opacity-min">Estrutura</div>
                 <img src={Img7} alt="House" style={{ width: '100%' }} className="w3-round" />
               </div>
             </div>
             <div className="w3-col l3 m6 w3-margin-bottom">
               <div className="w3-display-container">
-                <div className="w3-display-topleft w3-indigo w3-padding w3-opacity-minpadding">Estrutura</div>
+                <div className="w3-display-topleft w3-indigo w3-padding w3-opacity-min">Estrutura</div>
                 <img src={Img8} alt="House" style={{ width: '100%' }} className="w3-round" />
               </div>
             </div>
