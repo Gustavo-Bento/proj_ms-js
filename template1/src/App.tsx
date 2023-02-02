@@ -4,10 +4,10 @@ import Img1 from './assets/img1.jpg'
 import Img2 from './assets/img2.jpg'
 import Img3 from './assets/img3.jpg'
 import Img4 from './assets/img4.jpg'
-import Slide1 from './assets/slide1.jpg'
-import Slide2 from './assets/slide2.jpg'
-import Slide3 from './assets/slide3.jpg'
-import First from './assets/first.jpg'
+import Img5 from './assets/img5.jpg'
+import Img6 from './assets/img6.jpg'
+import Img7 from './assets/img7.jpg'
+import Img8 from './assets/img8.jpg'
 import Fundo from './assets/fundo.jpg'
 import Logo from './assets/logo.png'
 function App() {
@@ -18,7 +18,10 @@ function App() {
       {/* Navbar (sit on top) */}
       <div className="w3-top">
         <div className="w3-bar w3-white w3-wide w3-padding w3-card">
-          <a href="#home" className="w3-bar-item w3-button"><b>MS</b> Calhas</a>
+          <a href="#home" className="w3-bar-item w3-button">
+            <img src={Logo} alt="Logo" style={{ width: '5%' }} className="w3-round" />
+            <b>MS</b> Calhas
+          </a>
           {/* Float links to the right. Hide them on small screens */}
           <div className="w3-right w3-hide-small">
             <a href="#projects" className="w3-bar-item w3-button">Projetos</a>
@@ -49,51 +52,51 @@ function App() {
         <div className="w3-row-padding">
           <div className="w3-col l3 m6 w3-margin-bottom">
             <div className="w3-display-container">
-              <div className="w3-display-topleft w3-indigo w3-padding">Estruturas</div>
+              <div className="w3-display-topleft w3-indigo w3-padding w3-opacity-min">Estrutura</div>
               <img src={Img1} alt="House" style={{ width: '100%' }} className="w3-round" />
             </div>
           </div>
           <div className="w3-col l3 m6 w3-margin-bottom">
             <div className="w3-display-container">
-              <div className="w3-display-topleft w3-indigo w3-padding">Calhas</div>
+              <div className="w3-display-topleft w3-indigo w3-padding w3-opacity-min">Calha</div>
               <img src={Img2} alt="House" style={{ width: '100%' }} className="w3-round" />
             </div>
           </div>
           <div className="w3-col l3 m6 w3-margin-bottom">
             <div className="w3-display-container">
-              <div className="w3-display-topleft w3-indigo w3-padding">Telhado</div>
+              <div className="w3-display-topleft w3-indigo w3-padding w3-opacity-min">Telhado</div>
               <img src={Img3} alt="House" style={{ width: '100%' }} className="w3-round" />
             </div>
           </div>
           <div className="w3-col l3 m6 w3-margin-bottom">
             <div className="w3-display-container">
-              <div className="w3-display-topleft w3-indigo w3-padding">Garagem</div>
-              <img src={Img4} alt="House" style={{ width: '99%' }} className="w3-round" />
+              <div className="w3-display-topleft w3-indigo w3-padding w3-opacity-min">Estrutura</div>
+              <img src={Img4} alt="House" style={{ width: '100%' }} className="w3-round" />
             </div>
           </div>
           <div className="w3-row-padding">
             <div className="w3-col l3 m6 w3-margin-bottom">
               <div className="w3-display-container">
-                <div className=" w3-indigo w3-padding">Barn House</div>
-                <img src={First} alt="House" style={{ width: '99%' }} className="w3-round" />
+                <div className=" w3-display-topleft w3-indigo w3-padding w3-opacity-minpadding">Estrutura</div>
+                <img src={Img5} alt="House" style={{ width: '100%' }} className="w3-round" />
               </div>
             </div>
             <div className="w3-col l3 m6 w3-margin-bottom">
               <div className="w3-display-container">
-                <div className=" w3-indigo w3-padding">Dica</div>
-                <img src={Slide1} alt="House" style={{ width: '100%' }} className="w3-round" />
+                <div className=" w3-display-topleft w3-indigo w3-padding w3-opacity-minpadding">Estrutura</div>
+                <img src={Img6} alt="House" style={{ width: '100%' }} className="w3-round" />
               </div>
             </div>
             <div className="w3-col l3 m6 w3-margin-bottom">
               <div className="w3-display-container">
-                <div className=" w3-indigo w3-padding">Dica</div>
-                <img src={Slide2} alt="House" style={{ width: '99%' }} className="w3-round" />
+                <div className=" w3-display-topleft w3-indigo w3-padding w3-opacity-minpadding">Estrutura</div>
+                <img src={Img7} alt="House" style={{ width: '100%' }} className="w3-round" />
               </div>
             </div>
             <div className="w3-col l3 m6 w3-margin-bottom">
               <div className="w3-display-container">
-                <div className="w3-indigo w3-padding">Dica</div>
-                <img src={Slide3} alt="House" style={{ width: '99%' }} className="w3-round" />
+                <div className="w3-display-topleft w3-indigo w3-padding w3-opacity-minpadding">Estrutura</div>
+                <img src={Img8} alt="House" style={{ width: '100%' }} className="w3-round" />
               </div>
             </div>
           </div>
