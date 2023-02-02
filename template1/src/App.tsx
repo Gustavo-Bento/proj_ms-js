@@ -32,7 +32,6 @@ function App() {
         <img className="w3-image" src={Fundo} alt="mscalhas" width={1500} height="auto" />
         <div className="w3-display-middle w3-margin-top w3-center">
           <img src={Logo} alt="Logo" style={{ width: '20%' }} className="w3-round" />
-          <br>
             <h1 className="w3-xxlarge w3-text-white">
               <span className="w3-padding w3-opacity-min">
                 <b>MS</b>
