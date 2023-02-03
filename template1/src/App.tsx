@@ -23,7 +23,7 @@ function App() {
       <div className="w3-top">
         <div className="w3-bar w3-white w3-wide w3-padding w3-card">
           <a href="#home" className="w3-bar-item w3-button">
-            <a href="#home" class="w3-bar-item w3-button"><b>MS</b> Calhas & Hidraulica</a>
+            <a href="#home" className="w3-bar-item w3-button"><b>MS</b> Calhas & Hidraulica</a>
           </a>
           {/* Float links to the right. Hide them on small screens */}
           <div className="w3-right w3-hide-small">
