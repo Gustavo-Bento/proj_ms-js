@@ -1,9 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Img1 from './assets/img1.jpg'
-import Img2 from './assets/img2.jpg'
-import Img3 from './assets/img3.jpg'
-import Img4 from './assets/img4.jpg'
+
 import Img5 from './assets/img5.jpg'
 import Img6 from './assets/img6.jpg'
 import Img7 from './assets/img7.jpg'
@@ -16,6 +13,7 @@ import Perfil4 from './assets/perfil4.jpg'
 
 import Toolbar from './components/Toolbar/index'
 import Header from './components/Header/index'
+import Slides from './components/Slides/index'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -31,32 +29,9 @@ function App() {
         {/* Project Section */}
         <div className="w3-container w3-padding-32" id="projects">
           <h3 className="w3-border-bottom w3-border-light-grey w3-padding-16">Soluções Para Seu Imóvel</h3>
+          <Slides />
         </div>
         <div className="w3-row-padding">
-          <div className="w3-col l3 m6 w3-margin-bottom">
-            <div className="w3-display-container">
-              <div className="w3-display-topleft w3-indigo w3-padding w3-opacity-min">Estrutura</div>
-              <img src={Img1} alt="House" style={{ width: '100%' }} className="w3-round" />
-            </div>
-          </div>
-          <div className="w3-col l3 m6 w3-margin-bottom">
-            <div className="w3-display-container">
-              <div className="w3-display-topleft w3-indigo w3-padding w3-opacity-min">Calha</div>
-              <img src={Img2} alt="House" style={{ width: '100%' }} className="w3-round" />
-            </div>
-          </div>
-          <div className="w3-col l3 m6 w3-margin-bottom">
-            <div className="w3-display-container">
-              <div className="w3-display-topleft w3-indigo w3-padding w3-opacity-min">Telhado</div>
-              <img src={Img3} alt="House" style={{ width: '100%' }} className="w3-round" />
-            </div>
-          </div>
-          <div className="w3-col l3 m6 w3-margin-bottom">
-            <div className="w3-display-container">
-              <div className="w3-display-topleft w3-indigo w3-padding w3-opacity-min">Estrutura</div>
-              <img src={Img4} alt="House" style={{ width: '100%' }} className="w3-round" />
-            </div>
-          </div>
           <div className="w3-row-padding">
             <div className="w3-col l3 m6 w3-margin-bottom">
               <div className="w3-display-container">
