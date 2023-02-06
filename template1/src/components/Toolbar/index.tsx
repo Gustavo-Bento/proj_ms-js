@@ -1,5 +1,3 @@
-import '../../App.css'
-
 function Toolbar() {
     return(
         <header className="w3-top">

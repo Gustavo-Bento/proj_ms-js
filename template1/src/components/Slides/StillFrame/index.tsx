@@ -17,16 +17,16 @@ function StillFrame() {
           </ol>
           <div className="carousel-inner">
             <div className="item active">
-              <img src="{Img1}" alt="Forest" style={{width: '100%'}} />
+              <img src={Img1} alt="Forest" style={{width: '100%'}} />
             </div>
             <div className="item">
-              <img src="{Img2}" alt="Lights" style={{width: '100%'}} />
+              <img src={Img2} alt="Lights" style={{width: '100%'}} />
             </div>
             <div className="item">
-              <img src="{Img3}" alt="Mountains" style={{width: '100%'}} />
+              <img src={Img3} alt="Mountains" style={{width: '100%'}} />
             </div>
             <div className="item">
-              <img src="{Img4}" alt="Showtops" style={{width: '100%'}} />
+              <img src={Img4} alt="Showtops" style={{width: '100%'}} />
             </div>
           </div>
           <a className="left carousel-control" href="#myCarousel" data-slide="prev">
