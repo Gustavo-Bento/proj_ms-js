@@ -1,8 +1,8 @@
-import '../../App.css'
+
 import Fundo from '../../assets/fundo.jpg'
 import Logo from '../../assets/logo.png'
 
-function Toolbar() {
+function Header() {
     return(
         <header className="w3-display-container w3-content w3-wide" style={{ maxWidth: '1500px' }} id="home">
             <img className="w3-image" src={Fundo} alt="mscalhas" width={1500} height="auto" />
@@ -19,4 +19,4 @@ function Toolbar() {
     )
 }
 
-export default Toolbar
+export default Header
