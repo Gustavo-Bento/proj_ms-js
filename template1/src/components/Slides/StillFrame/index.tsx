@@ -1,4 +1,4 @@
-import '../../App.css'
+import '../../../App.css'
 import './style.css'
 
 import Img1 from '../../../assets/img_forest.jpg'
@@ -6,24 +6,25 @@ import Img2 from '../../../assets/img_lights.jpg'
 import Img3 from '../../../assets/img_mountains.jpg'
 import Img4 from '../../../assets/img_showtops.jpg'
 
-function StillFrame() {
-    var slideIndex = 1;
+var slideIndex = 1;
     showDivs(slideIndex);
 
-    function plusDivs(n) {
-        showDivs(slideIndex += n);
-    }
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
 
-    function showDivs(n) {
-        var i;
-        var x = document.getElementsByClassName("mySlides");
-        if (n > x.length) { slideIndex = 1 }
-        if (n < 1) { slideIndex = x.length }
-        for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
-        }
-        x[slideIndex - 1].style.display = "block";
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) { slideIndex = 1 }
+    if (n < 1) { slideIndex = x.length }
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
     }
+    x[slideIndex - 1].style.display = "block";
+}
+
+function StillFrame() {
     return (
         <div className="w3-col l3 m6 w3-margin-bottom">
             <div className="w3-display-container">
