@@ -8,44 +8,24 @@ import Img5 from './assets/img5.jpg'
 import Img6 from './assets/img6.jpg'
 import Img7 from './assets/img7.jpg'
 import Img8 from './assets/img8.jpg'
-import Fundo from './assets/fundo.jpg'
-import Logo from './assets/logo.png'
+
 import Perfil1 from './assets/perfil1.jpg'
 import Perfil2 from './assets/perfil2.jpg'
 import Perfil3 from './assets/perfil3.jpg'
 import Perfil4 from './assets/perfil4.jpg'
+
+import Toolbar from './components/Toolbar/index.tsx'
+import Header from './components/Header/index.tsx'
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div>
       {/* Navbar (sit on top) */}
-      <div className="w3-top">
-        <div className="w3-bar w3-white w3-wide w3-padding w3-card">
-          <a href="#home" className="w3-bar-item w3-button">
-            <a href="#home" className="w3-bar-item w3-button"><b>MS</b> Calhas & Hidraulica</a>
-          </a>
-          {/* Float links to the right. Hide them on small screens */}
-          <div className="w3-right w3-hide-small">
-            <a href="#projects" className="w3-bar-item w3-button">Projetos</a>
-            <a href="#about" className="w3-bar-item w3-button">Sobre</a>
-            <a href="#contact" className="w3-bar-item w3-button">Contato</a>
-          </div>
-        </div>
-      </div>
+      <Toolbar />
       {/* Header */}
-      <header className="w3-display-container w3-content w3-wide" style={{ maxWidth: '1500px' }} id="home">
-        <img className="w3-image" src={Fundo} alt="mscalhas" width={1500} height="auto" />
-        <div className="w3-display-middle w3-margin-top w3-center">
-          <img src={Logo} alt="Logo" style={{ width: '20%' }} className="w3-round w3-opacity-min" />
-          <h1 className="w3-xxlarge w3-text-white">
-            <span className="w3-padding w3-opacity-min">
-              <b>MS</b>
-            </span>
-            <span className="w3-hide-small w3-text-light-grey">Calhas & Hidraulica</span>
-          </h1>
-        </div>
-      </header>
+      <Header />
       {/* Page content */}
       <div className="w3-content w3-padding" style={{ maxWidth: '1564px' }}>
         {/* Project Section */}
@@ -115,7 +95,7 @@ function App() {
             <h3>Gustavo Ferreira</h3>
             <p className="w3-opacity">Professor</p>
             <p>
-Obrigado por manter diligentemente os azulejos e encanamentos da propriedade.</p>
+              Obrigado por manter diligentemente os azulejos e encanamentos da propriedade.</p>
             <p><button className="w3-button w3-light-grey w3-block">Contact</button></p>
           </div>
           <div className="w3-col l3 m6 w3-margin-bottom">
