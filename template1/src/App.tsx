@@ -29,35 +29,10 @@ function App() {
         {/* Project Section */}
         <div className="w3-container w3-padding-32" id="projects">
           <h3 className="w3-border-bottom w3-border-light-grey w3-padding-16">Soluções Para Seu Imóvel</h3>
-          <Slides />
         </div>
         <div className="w3-row-padding">
-          <div className="w3-row-padding">
-            <div className="w3-col l3 m6 w3-margin-bottom">
-              <div className="w3-display-container">
-                <div className=" w3-display-topleft w3-indigo w3-padding w3-opacity-min">Estrutura</div>
-                <img src={Img5} alt="House" style={{ width: '100%' }} className="w3-round" />
-              </div>
-            </div>
-            <div className="w3-col l3 m6 w3-margin-bottom">
-              <div className="w3-display-container">
-                <div className=" w3-display-topleft w3-indigo w3-padding w3-opacity-min">Estrutura</div>
-                <img src={Img6} alt="House" style={{ width: '100%' }} className="w3-round" />
-              </div>
-            </div>
-            <div className="w3-col l3 m6 w3-margin-bottom">
-              <div className="w3-display-container">
-                <div className=" w3-display-topleft w3-indigo w3-padding w3-opacity-min">Estrutura</div>
-                <img src={Img7} alt="House" style={{ width: '100%' }} className="w3-round" />
-              </div>
-            </div>
-            <div className="w3-col l3 m6 w3-margin-bottom">
-              <div className="w3-display-container">
-                <div className="w3-display-topleft w3-indigo w3-padding w3-opacity-min">Estrutura</div>
-                <img src={Img8} alt="House" style={{ width: '100%' }} className="w3-round" />
-              </div>
-            </div>
-          </div>
+        <Slides />
+        <Slides />
         </div>
         {/* About Section */}
         <div className="w3-container w3-padding-32" id="about">
