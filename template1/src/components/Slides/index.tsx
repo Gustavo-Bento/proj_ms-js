@@ -6,3 +6,5 @@ function Slides() {
         <StillFrame />
     )
 }
+
+export default Slides
