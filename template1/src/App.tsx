@@ -14,8 +14,8 @@ import Perfil2 from './assets/perfil2.jpg'
 import Perfil3 from './assets/perfil3.jpg'
 import Perfil4 from './assets/perfil4.jpg'
 
-import Toolbar from './components/Toolbar/index.tsx'
-import Header from './components/Header/index.tsx'
+import Toolbar from './components/Toolbar/index'
+import Header from './components/Header/index'
 
 function App() {
   const [count, setCount] = useState(0)
