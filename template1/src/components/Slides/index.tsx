@@ -3,7 +3,7 @@ import Descricao from './Descricao/index'
 
 function Slides() {
     return (
-        <div class="w3-row-padding">
+        <div className="w3-row-padding">
             <div className="col-sm-8">
                 <Descricao />
             </div>
