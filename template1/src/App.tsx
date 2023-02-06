@@ -1,10 +1,5 @@
 import { useState } from 'react'
 
-import Img5 from './assets/img5.jpg'
-import Img6 from './assets/img6.jpg'
-import Img7 from './assets/img7.jpg'
-import Img8 from './assets/img8.jpg'
-
 import Perfil1 from './assets/perfil1.jpg'
 import Perfil2 from './assets/perfil2.jpg'
 import Perfil3 from './assets/perfil3.jpg'
