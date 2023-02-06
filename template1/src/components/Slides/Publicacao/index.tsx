@@ -1,11 +1,11 @@
 
-import Img1 from '../../../assets/negocio/slide 1.jpg'
-import Img2 from '../../../assets/slide 2.jpg'
-import Img3 from '../../../assets/slide 3.jpg'
+import Img1 from '../../../assets/negocio/slide1.jpg'
+import Img2 from '../../../assets/negocio/slide2.jpg'
+import Img3 from '../../../assets/negocio/slide3.jpg'
 
 function Publicacao() {
     return (
-        <div className="container">
+        <div className="w3-content w3-margin">
             <div id="myCarousel" className="carousel slide" data-ride="carousel">
                 <ol className="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to={0} className="active" />
@@ -14,22 +14,22 @@ function Publicacao() {
                 </ol>
                 <div className="carousel-inner">
                     <div className="item active">
-                        <img src={Img1} alt="Forest" style={{ width: '100%' }} />
+                        <img src={Img1} alt="Ajuda" style={{ width: '100%' }} />
                     </div>
                     <div className="item">
-                        <img src={Img2} alt="Lights" style={{ width: '100%' }} />
+                        <img src={Img2} alt="Solução" style={{ width: '100%' }} />
                     </div>
                     <div className="item">
-                        <img src={Img3} alt="Mountains" style={{ width: '100%' }} />
+                        <img src={Img3} alt="Contato" style={{ width: '100%' }} />
                     </div>
                 </div>
                 <a className="left carousel-control" href="#myCarousel" data-slide="prev">
                     <span className="glyphicon glyphicon-chevron-left" />
-                    <span className="sr-only">Previous</span>
+                    <span className="sr-only">Anterior</span>
                 </a>
                 <a className="right carousel-control" href="#myCarousel" data-slide="next">
                     <span className="glyphicon glyphicon-chevron-right" />
-                    <span className="sr-only">Next</span>
+                    <span className="sr-only">Proximo</span>
                 </a>
             </div>
         </div>

@@ -22,17 +22,11 @@ function App() {
         {/* Page content */}
         <div className="w3-content w3-padding" style={{ maxWidth: '1564px' }}>
           {/* Project Section */}
-          <div className="w3-container w3-padding-16" id="projects">
-            <h3 className="w3-border-bottom w3-border-light-grey w3-padding-16">Soluções Para Seu Imóvel</h3>
+          <div className="w3-container w3-padding-4" id="projects">
+            <h3 className="w3-border-bottom w3-border-light-grey w3-padding-4">Soluções Para Seu Imóvel</h3>
           </div>
-          <div className="w3-row-padding">
+          <div className="w3-row w3-margin">
             <Slides />
-            <Slides />
-          </div>
-          {/* About Section */}
-          <div className="w3-container w3-padding-16" id="about">
-            <h3 className="w3-border-bottom w3-border-light-grey w3-padding-16">Sobre a importancia das Calhas</h3>
-            <p>As calhas são uma parte importante de qualquer estrutura de cobertura, pois são essenciais para gerenciar o escoamento de água e evitar danos à fundação e às paredes do edifício. Calhas de metal, como alumínio e aço galvanizado, são as mais comumente usadas, pois são duráveis, resistentes às intempéries e acessíveis. Essas calhas podem ter uma variedade de formas e tamanhos e podem ser instaladas de diferentes maneiras, incluindo cabides tradicionais, cabides ocultos e suportes de fáscia. Para garantir um telhado duradouro e evitar possíveis danos, é importante garantir que as calhas sejam instaladas e mantidas corretamente.</p>
           </div>
           <div className="w3-row-padding w3-grayscale">
             <div className="w3-col l3 m6 w3-margin-bottom">
