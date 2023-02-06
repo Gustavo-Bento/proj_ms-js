@@ -6,36 +6,36 @@ import Img4 from '../../../assets/img_showtops.jpg'
 
 function StillFrame() {
     return (
-        <div classname="container">
+        <div className="container">
         <h2>Carousel Example</h2>
-        <div id="myCarousel" classname="carousel slide" data-ride="carousel">
-          <ol classname="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to={0} classname="active" />
+        <div id="myCarousel" className="carousel slide" data-ride="carousel">
+          <ol className="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to={0} className="active" />
             <li data-target="#myCarousel" data-slide-to={1} />
             <li data-target="#myCarousel" data-slide-to={2} />
             <li data-target="#myCarousel" data-slide-to={3} />
           </ol>
-          <div classname="carousel-inner">
-            <div classname="item active">
+          <div className="carousel-inner">
+            <div className="item active">
               <img src="{Img1}" alt="Forest" style={{width: '100%'}} />
             </div>
-            <div classname="item">
+            <div className="item">
               <img src="{Img2}" alt="Lights" style={{width: '100%'}} />
             </div>
-            <div classname="item">
+            <div className="item">
               <img src="{Img3}" alt="Mountains" style={{width: '100%'}} />
             </div>
-            <div classname="item">
+            <div className="item">
               <img src="{Img4}" alt="Showtops" style={{width: '100%'}} />
             </div>
           </div>
-          <a classname="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span classname="glyphicon glyphicon-chevron-left" />
-            <span classname="sr-only">Previous</span>
+          <a className="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span className="glyphicon glyphicon-chevron-left" />
+            <span className="sr-only">Previous</span>
           </a>
-          <a classname="right carousel-control" href="#myCarousel" data-slide="next">
-            <span classname="glyphicon glyphicon-chevron-right" />
-            <span classname="sr-only">Next</span>
+          <a className="right carousel-control" href="#myCarousel" data-slide="next">
+            <span className="glyphicon glyphicon-chevron-right" />
+            <span className="sr-only">Next</span>
           </a>
         </div>
       </div>
