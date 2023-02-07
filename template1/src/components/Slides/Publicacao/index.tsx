@@ -14,13 +14,13 @@ function Publicacao() {
                 </ol>
                 <div className="carousel-inner">
                     <div className="item active">
-                        <img src={Img1} alt="Ajuda" style={{ width: '100%' }} />
+                        <img src={Img1} alt="Ajuda" style={{ height: '80%' }} />
                     </div>
                     <div className="item">
-                        <img src={Img2} alt="Solução" style={{ width: '100%' }} />
+                        <img src={Img2} alt="Solução" style={{ height: '80%' }} />
                     </div>
                     <div className="item">
-                        <img src={Img3} alt="Contato" style={{ width: '100%' }} />
+                        <img src={Img3} alt="Contato" style={{ height: '80%' }} />
                     </div>
                 </div>
                 <a className="left carousel-control" href="#myCarousel" data-slide="prev">

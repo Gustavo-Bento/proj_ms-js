@@ -14,8 +14,14 @@ function Toolbar() {
                                 <a href="#hidraulica" className="w3-bar-item w3-button">Hidraulica</a>
                             </div>
                         </div>
-                        <a href="#about" className="w3-bar-item w3-button">Sobre</a>
-                        <a href="#contact" className="w3-bar-item w3-button">Contato</a>
+                        <div className="w3-dropdown-hover 3-button">
+                            <button className="w3-button">Empresa</button>
+                            <div className="w3-dropdown-content w3-bar-block w3-card-4">
+                                <a href="#contato" className="w3-bar-item w3-button">Calhas</a>
+                                <a href="#endereco" className="w3-bar-item w3-button">Still Frames</a>
+                            </div>
+                        </div>
+                        <a href="#servicos" className="w3-bar-item w3-button">Serviços</a>
                     </div>
 
                 </div>

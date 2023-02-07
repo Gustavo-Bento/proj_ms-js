@@ -24,12 +24,11 @@ function Descricao() {
                 </div>
                 <div className="col-sm-6">
                     <h4 className="w3-wide"><b><i className="fa fa-diamond" style={{ fontSize: 24 }}></i> Segue a dica!</b></h4>
-                    <p className="w3-justify" style={{ fontSize: 12 }}>
+                    <p className="w3-justify" >
                         Para garantir um telhado duradouro e evitar possíveis danos, é importante garantir que as calhas sejam instaladas e mantidas corretamente limpas.</p>
+                        <p className="w3-justify" >
+                        <b>Prizamos sempre a qualidade em nossos serviços</b>, por isso nosso clientes sempre nos indicam para novos projetos.</p>
                 </div>
-                    <a className="w3-button w3-round-large w3-margin w3-padding w3-green" style={{ fontSize: 18 }} href="https://api.whatsapp.com/send?phone=5511998678250&text=Ol%C3%A1,%20tudo%20bem?%20Preciso%20de%20um%20or%C3%A7amento%20sobre%20calhas.%20">
-                        <i className="fa fa-whatsapp" style={{ fontSize: 24 }}></i> Realizar orçamento
-                    </a>
             </div>  
         </div>
     )
