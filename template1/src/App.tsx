@@ -20,14 +20,12 @@ function App() {
         {/* Header */}
         <Header />
         {/* Page content */}
-        <div className="w3-content w3-padding" style={{ maxWidth: '1564px' }}>
+        <div className="w3-content" style={{ maxWidth: '1564px' }}>
           {/* Project Section */}
           <div className="w3-container w3-padding-4" id="projects">
             <h3 className="w3-border-bottom w3-border-light-grey w3-padding-4">Soluções Para Seu Imóvel</h3>
           </div>
-          <div className="w3-row w3-margin">
-            <Slides />
-          </div>
+          <Slides />
           <div className="w3-row-padding w3-grayscale">
             <div className="w3-col l3 m6 w3-margin-bottom">
               <img src={Perfil1} alt="John" style={{ width: '100%' }} />

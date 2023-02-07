@@ -5,7 +5,7 @@ import Img3 from '../../../assets/negocio/slide3.jpg'
 
 function Publicacao() {
     return (
-        <div className="w3-content w3-margin">
+        <div className="w3-container w3-margin">
             <div id="myCarousel" className="carousel slide" data-ride="carousel">
                 <ol className="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to={0} className="active" />
