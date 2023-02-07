@@ -8,6 +8,7 @@ import Perfil4 from './assets/perfil4.jpg'
 import Toolbar from './components/Toolbar/index'
 import Header from './components/Header/index'
 import Slides from './components/Slides/index'
+import Map from './components/Map/index'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -72,9 +73,7 @@ function App() {
             </form>
           </div>
           {/* Image of location/map */}
-          <div className="w3-container">
-            <img src="/w3images/map.jpg" className="w3-image" style={{ width: '100%' }} />
-          </div>
+          <Map />
           {/* End page content */}
         </div>
         {/* Footer */}

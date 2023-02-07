@@ -3,17 +3,16 @@ import Descricao from './Descricao/index'
 
 function Slides() {
     return (
-        
-            <div className="w3-content" id="calhas">
-                <div className="w3-light-grey w3-margin-1">
-                    <h2 className="w3-wide w3-center">Soluções para Calhas</h2>
-                </div>
-                <div className="row w3">
-                    <div className="col-sm-7"><Descricao />
-                    </div>
-                    <div className="col-sm-5"><Publicacao /></div>
-                </div>
+        <div className="w3-content" id="calhas">
+            <div className="w3-light-grey w3-margin-1">
+                <h2 className="w3-wide w3-center">Soluções para Calhas</h2>
             </div>
+            <div className="row w3">
+                <div className="col-sm-7"><Descricao />
+                </div>
+                <div className="col-sm-5"><Publicacao /></div>
+            </div>
+        </div>
     )
 }
 

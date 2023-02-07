@@ -3,8 +3,7 @@ import Img1 from '../../../assets/negocio/header.jpg'
 function Descricao() {
     return (
         <div className="w3-container">
-
-            <div className="w3-margin">
+            <div className="w3-margin w3-animate-top">
                 <h4 className="w3-wide"><b><i className="fa fa-comment-o" style={{ fontSize: 24 }}></i> O que seria?</b></h4>
                 <p className="w3-justify">
                     As calhas são uma parte importante de qualquer estrutura de cobertura, pois são essenciais para gerenciar o escoamento de água e evitar danos à fundação e às paredes do edifício. </p>
@@ -32,9 +31,6 @@ function Descricao() {
                         <i className="fa fa-whatsapp" style={{ fontSize: 24 }}></i> Realizar orçamento
                     </a>
             </div>  
-
-
-
         </div>
     )
 }
