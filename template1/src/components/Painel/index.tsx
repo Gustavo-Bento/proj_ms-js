@@ -6,8 +6,8 @@ import Template4 from "./Template4/index"
 function Painel() {
     return (
         <div className="w3-container" id="servicos">
-            <div className="w3-light-grey w3-margin-1">
-                <h2 className="w3-wide w3-center">Serviços prestados com qualidade</h2>
+            <div className="w3-light-grey w3-margin w3-wide-small">
+                <h2 className="w3-center">Serviços prestados com qualidade</h2>
             </div>
             <div className="w3-row-padding">
                 <Template1 />
