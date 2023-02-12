@@ -17,7 +17,7 @@ function Contact() {
                     <div className="w3-row">
                         <div className="w3-col l6 w3-padding">
                             <p style={{ fontSize: 12 }}>Náo perca seu tempo, mande uma mensagem agora para gente e agende um orçamento</p>
-                            <a className="w3-button w3-round-large w3-green w3-block" style={{ fontSize: 18, textDecoration: 'none' }} href="https://api.whatsapp.com/send?phone=5511998678250&text=Ol%C3%A1,%20tudo%20bem?%20Laiane?%20Preciso%20tirar%20uma%20duvida%20sobre%20or%C3%A7amento.">
+                            <a className="w3-button w3-round-large w3-green w3-block" target="_blank" style={{ fontSize: 18, textDecoration: 'none' }} href="https://api.whatsapp.com/send?phone=5511998678250&text=Ol%C3%A1,%20tudo%20bem?%20Laiane?%20Preciso%20tirar%20uma%20duvida%20sobre%20or%C3%A7amento.">
                                 <i className="fa fa-whatsapp" style={{ fontSize: 22 }}></i> Realizar orçamento
                             </a>
                         </div>
