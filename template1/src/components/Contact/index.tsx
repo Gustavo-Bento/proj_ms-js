@@ -9,11 +9,11 @@ function Contact() {
             </div>
             <div className="w3-row w3-container">
                 <div className="w3-col m6 l5 w3-center">
-                    <img className='ilustracao' src={Figura1} width="100%"/>
+                    <img className='ilustracao' src={Figura1} width="100%" />
                 </div>
                 <div className="w3-col m6 l7 w3-light-grey">
                     <div className="w3-blue-grey w3-margin w3-padding">
-                        <h4 className='w3-center'><b>Nosso horários de atendimento:</b></h4>
+                        <h4 className='w3-center'><b>Nosso horário de atendimento:</b></h4>
                     </div>
                     <div className="w3-row w3-padding w3-margin">
                         <div className="w3-col l6">
@@ -25,7 +25,7 @@ function Contact() {
                         </div>
                     </div>
                     <div className="w3-center w3-padding w3-margin">
-                    <a className="w3-button w3-round-large w3-green" target="_blank" style={{ fontSize: 20, textDecoration: 'none' }} href="https://api.whatsapp.com/send?phone=5511998678250&text=Ol%C3%A1,%20tudo%20bem?%20Laiane?%20Preciso%20tirar%20uma%20duvida%20sobre%20or%C3%A7amento.">
+                        <a className="w3-button w3-round-large w3-green" target="_blank" style={{ fontSize: 20, textDecoration: 'none' }} href="https://api.whatsapp.com/send?phone=5511998678250&text=Ol%C3%A1,%20tudo%20bem?%20Laiane?%20Preciso%20tirar%20uma%20duvida%20sobre%20or%C3%A7amento.">
                             <i className="fa fa-whatsapp"></i> Realizar orçamento
                         </a>
                     </div>

@@ -1,4 +1,5 @@
 import Img1 from '../../../assets/negocio/header.jpg'
+import './../style.css'
 
 function Descricao() {
     return (
@@ -19,11 +20,11 @@ function Descricao() {
                     Essas calhas podem ter uma variedade de formas e tamanhos e podem ser instaladas de diferentes maneiras, incluindo cabides tradicionais, cabides ocultos e suportes de fáscia. </p>
             </div>
             <div className=" w3-margin w3-light-grey w3-row">
-                <div className="w3-col m6 l6">
-                    <img src={Img1} alt="manutenção no telhado" style={{ width: '100%' }} className="w3-round" />
+                <div className="w3-col m6 l6 banner">
+                    <img className="w3-round" src={Img1} alt="manutenção no telhado" style={{ width: '80%' }} />
                 </div>
                 <div className="w3-col m6 l6">
-                    <h4 className="w3-wide"><b><i className="fa fa-diamond" style={{ fontSize: 24 }}></i> Segue a dica!</b></h4>
+                    <h4 className="w3-wide w3-margin"><b><i className="fa fa-diamond" style={{ fontSize: 24 }}></i> Segue a dica!</b></h4>
                     <p className="w3-justify w3-margin" >
                         Para garantir um telhado duradouro e evitar possíveis danos, é importante garantir que as calhas sejam instaladas e mantidas corretamente limpas.</p>
                     <p className="w3-justify w3-margin" >
