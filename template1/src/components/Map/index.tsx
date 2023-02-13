@@ -35,7 +35,10 @@ function Map() {
                     </div>
                 </div>
                 <div className="w3-col m4 l4 w3-container">
+                    <a target="_blank" href="https://www.google.com/maps/@-23.2721996,-47.3084264,3a,75y,228.05h,78.23t/data=!3m6!1e1!3m4!1sS6al5qX0aNdmfWTcGussIA!2e0!7i16384!8i8192">
                     <img src={Faixada} className="w3-image  w3-display-container" style={{ width: '100%' }} />
+                    </a>
+                    
                 </div>
             </div>
         </div>
