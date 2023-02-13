@@ -1,6 +1,6 @@
 function Toolbar() {
     return (
-        <header className="w3-top w3-margin-right w3-wide-small">
+        <header className="w3-top">
             <div className="w3-bar w3-white w3-wide w3-padding w3-card">
                 <a href="#home" className="w3-bar-item w3-button"><b>MS</b> Calhas & Hidraulica
                 </a>

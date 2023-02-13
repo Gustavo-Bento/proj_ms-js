@@ -6,31 +6,6 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  
-  transform: scale(1.0);
-  transform-origin: 0 0;
-
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-  /*Safari e Chrome antigos*/
-  -webkit-transform: scale(1.0);
-  -webkit-transform-origin: 0 0;
-
-  /*Firefox mais antigo*/
-  -moz-transform: scale(1.0);
-  -moz-transform-origin: 0 0;
-
-  /*IE 9*/
-  -ms-transform: scale(1.0);
-  -ms-transform-origin: 0 0;
-
-  /*navegadores atualizados*/
-  transform: scale(1.0);
-  transform-origin: 0 0;
 }
 
 a {
