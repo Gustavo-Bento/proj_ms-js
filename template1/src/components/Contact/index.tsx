@@ -1,4 +1,5 @@
 import Figura1 from '../../assets/contato/personagem.svg'
+import './style.css'
 
 function Contact() {
     return (
@@ -8,7 +9,7 @@ function Contact() {
             </div>
             <div className="w3-row w3-container">
                 <div className="w3-col m6 l5 w3-center">
-                    <img src={Figura1} width="100%" />
+                    <img className='ilustracao' src={Figura1} width="100%"/>
                 </div>
                 <div className="w3-col m6 l7 w3-light-grey">
                     <div className="w3-blue-grey w3-margin w3-padding">
