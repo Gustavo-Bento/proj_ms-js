@@ -8,15 +8,15 @@ function Contact() {
             </div>
             <div className="w3-row w3-container">
                 <div className="w3-col m6 l5 w3-center">
-                    <img src={Figura1} width="50%" />
+                    <img src={Figura1} width="100%" />
                 </div>
-                <div className="w3-col m1 l7 w3-light-grey">
+                <div className="w3-col m6 l7 w3-light-grey">
                     <div className="w3-blue-grey w3-margin w3-padding">
                         <h4 className='w3-center'><b>Nosso horários de atendimento:</b></h4>
                     </div>
-                    <div className="w3-row w3-padding">
+                    <div className="w3-row w3-padding w3-margin">
                         <div className="w3-col l6">
-                            <p className='w3-margin'>Náo perca seu tempo, mande uma mensagem agora para gente e agende um orçamento</p>
+                            <p>Náo perca seu tempo, mande uma mensagem agora para gente e agende um orçamento</p>
                         </div>
                         <div className="w3-col l6">
                             <p>De segunda-feira a sexta-feira</p>

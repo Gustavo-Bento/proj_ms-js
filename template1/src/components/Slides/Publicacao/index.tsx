@@ -5,7 +5,7 @@ import Img3 from '../../../assets/negocio/slide3.jpg'
 
 function Publicacao() {
     return (
-        <div className="w3-container w3-margin">
+        <div className="w3-content w3-margin">
             <div id="myCarousel" className="carousel slide" data-ride="carousel">
                 <ol className="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to={0} className="active" />
@@ -14,13 +14,13 @@ function Publicacao() {
                 </ol>
                 <div className="carousel-inner">
                     <div className="item active">
-                        <img src={Img1} alt="Ajuda" style={{ height: '80%' }} />
+                        <img src={Img1} alt="Ajuda" style={{ height: '25%' }} />
                     </div>
                     <div className="item">
-                        <img src={Img2} alt="Solução" style={{ height: '80%' }} />
+                        <img src={Img2} alt="Solução" style={{ height: '25%' }} />
                     </div>
                     <div className="item">
-                        <img src={Img3} alt="Contato" style={{ height: '80%' }} />
+                        <img src={Img3} alt="Contato" style={{ height: '25%' }} />
                     </div>
                 </div>
                 <a className="left carousel-control" href="#myCarousel" data-slide="prev">
