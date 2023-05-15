@@ -1,4 +1,4 @@
-import Limpeza from '../../../assets/limpeza/img1.jpg'
+import Limpeza from '../../../assets/limpeza/img1.webp'
 import Button from '../Button/index'
 
 function Template1() {

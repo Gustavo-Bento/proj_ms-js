@@ -1,7 +1,7 @@
 
-import Img1 from '../../../assets/negocio/slide1.jpg'
-import Img2 from '../../../assets/negocio/slide2.jpg'
-import Img3 from '../../../assets/negocio/slide3.jpg'
+import Img1 from '../../../assets/negocio/slide1.webp'
+import Img2 from '../../../assets/negocio/slide2.webp'
+import Img3 from '../../../assets/negocio/slide3.webp'
 
 function Publicacao() {
     return (

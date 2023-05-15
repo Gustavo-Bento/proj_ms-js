@@ -1,6 +1,6 @@
 
-import Fundo from '../../assets/fundo.jpg'
-import Logo from '../../assets/logo.png'
+import Fundo from '../../assets/fundo.webp'
+import Logo from '../../assets/logo.webp'
 
 function Header() {
     return(

@@ -1,4 +1,4 @@
-import Img1 from '../../../assets/negocio/header.jpg'
+import Img1 from '../../../assets/negocio/header.webp'
 import './../style.css'
 
 function Descricao() {

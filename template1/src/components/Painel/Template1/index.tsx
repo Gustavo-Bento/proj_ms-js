@@ -1,4 +1,4 @@
-import Stillframe from '../../../assets/stillframe/img1.jpg'
+import Stillframe from '../../../assets/stillframe/img1.webp'
 import Button from '../Button/index'
 
 function Template1() {

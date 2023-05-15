@@ -1,4 +1,4 @@
-import Bombas from '../../../assets/bombas/img1.jpg'
+import Bombas from '../../../assets/bombas/img1.webp'
 import Button from '../Button/index'
 
 function Template1() {

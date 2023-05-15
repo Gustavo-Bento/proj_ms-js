@@ -1,4 +1,4 @@
-import Encanamento from '../../../assets/encanamento/img1.jpg'
+import Encanamento from '../../../assets/encanamento/img1.webp'
 import Button from '../Button/index'
 
 function Template1() {
