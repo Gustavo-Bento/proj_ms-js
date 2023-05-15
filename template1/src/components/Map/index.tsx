@@ -1,5 +1,5 @@
-import Faixada from '../../assets/local/faixada.png'
-import Local from '../../assets/local/local.png'
+import Faixada from '../../assets/local/faixada.webp'
+import Local from '../../assets/local/local.webp'
 
 function Map() {
     return (
