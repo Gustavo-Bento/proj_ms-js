@@ -1,7 +1,6 @@
 import Template1 from "./Template1/index"
 import Template2 from "./Template2/index"
 import Template3 from "./Template3/index"
-import Template4 from "./Template4/index"
 
 function Painel() {
     return (
@@ -13,7 +12,6 @@ function Painel() {
                 <Template1 />
                 <Template2 />
                 <Template3 />
-                <Template4 />
             </div>
         </div>
     )
