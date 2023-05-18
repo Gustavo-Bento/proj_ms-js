@@ -14,20 +14,22 @@ function Template2() {
             <div className="carousel-inner">
               <div className="item active">
                 <img src={Img1} alt="Ajuda" style={{ height: '25%' }} />
+                <div className="w3-display-topleft w3-black w3-padding">Hidraulica</div>
               </div>
               <div className="item">
                 <img src={Img2} alt="Solução" style={{ height: '25%' }} />
+                <div className="w3-display-topleft w3-black w3-padding">Hidraulica</div>
               </div>
               <div className="item">
                 <img src={Img3} alt="Contato" style={{ height: '25%' }} />
+                <div className="w3-display-topleft w3-black w3-padding">Hidraulica</div>
               </div>
             </div>
           </div>
         </div>
       </a>
       <div className="w3-content w3-margin">
-        <h3>Hidraulica</h3>
-        <p className="w3-opacity">Limpeza de dutos e calhas</p>
+        <p className="w3-opacity">Encanamento com qualidade</p>
         <p>
           Não quer problemas ou vazamentos na sua obra? entre em contato.
         </p>

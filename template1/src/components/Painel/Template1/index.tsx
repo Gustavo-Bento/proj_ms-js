@@ -9,22 +9,25 @@ function Template1() {
       <a href="#calhas">
         <div className=" w3-margin w3-content">
           <div id="myCarousel" className="carousel slide" data-ride="carousel">
+          
             <div className="carousel-inner">
               <div className="item active">
                 <img src={Img1} alt="Ajuda" style={{ height: '25%' }} />
+                <div className="w3-display-topleft w3-black w3-padding">Calhas e Rufos</div>
               </div>
               <div className="item">
                 <img src={Img2} alt="Solução" style={{ height: '25%' }} />
+                <div className="w3-display-topleft w3-black w3-padding">Calhas e Rufos</div>
               </div>
               <div className="item">
                 <img src={Img3} alt="Contato" style={{ height: '25%' }} />
+                <div className="w3-display-topleft w3-black w3-padding">Calhas e Rufos</div>
               </div>
             </div>
           </div>
         </div>
       </a>
       <div className="w3-content w3-margin">
-        <h3>Calhas e Rufos</h3>
         <p className="w3-opacity">A melhor solução em calhas e rufos</p>
         <p>
           Para telhados sem preoucpações, contrate nossos serviços!

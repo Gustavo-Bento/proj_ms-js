@@ -14,20 +14,22 @@ function Template3() {
             <div className="carousel-inner">
               <div className="item active">
                 <img src={Img1} alt=" " style={{ height: '25%' }} />
+                <div className="w3-display-topleft w3-black w3-padding">Still Frame</div>
               </div>
               <div className="item">
                 <img src={Img2} alt="Solução" style={{ height: '25%' }} />
+                <div className="w3-display-topleft w3-black w3-padding">Still Frame</div>
               </div>
               <div className="item">
                 <img src={Img3} alt="Contato" style={{ height: '25%' }} />
+                <div className="w3-display-topleft w3-black w3-padding">Still Frame</div>
               </div>
             </div>
           </div>
         </div>
       </a>
       <div className="w3-content w3-margin">
-        <h3>Still Frame</h3>
-        <p className="w3-opacity">Solução para o encanamento</p>
+        <p className="w3-opacity">Estrutura duradoura para seu lar</p>
         <p>
 
           Se quer um telhado de confiança, utilize a estrutura mais duradora.
