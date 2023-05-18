@@ -3,7 +3,7 @@ import Local from '../../assets/local/local.webp'
 
 function Map() {
     return (
-        <div className="w3-container" id="endereco" >
+        <div className="w3-content w3-center" style={{ maxWidth: '2000px', marginTop: '46px' }}  id="endereco" >
             <div className="w3-light-grey w3-margin w3-wide-small">
                 <h2 className="w3-center">Nos faça uma visita!</h2>
             </div>

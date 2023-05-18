@@ -2,7 +2,7 @@
 @media (min-width: 600px){
     .ilustracao{
         display: flex;
-        width: 70%;
+        width: 50%;
     }
 }
 @media (max-width: 599px){

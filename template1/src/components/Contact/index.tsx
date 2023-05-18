@@ -8,18 +8,18 @@ function Contact() {
                 <h2 className="w3-center">Faça seu orçamento agora!</h2>
             </div>
             <div className="w3-row w3-container">
-                <div className="w3-col m6 l5 w3-center">
-                    <img className='ilustracao' src={Figura1} width="100%" />
+                <div className="w3-col m6 l6 w3-center">
+                    <img className='ilustracao w3-right w3-margin' src={Figura1} width="100%" />
                 </div>
-                <div className="w3-col m6 l7 w3-light-grey">
+                <div className="w3-col m6 l6 w3-light-grey">
                     <div className="w3-blue-grey w3-margin w3-padding">
                         <h4 className='w3-center'><b>Nosso horário de atendimento:</b></h4>
                     </div>
-                    <div className="w3-row w3-padding w3-margin">
-                        <div className="w3-col l6">
+                    <div className="w3-row w3-margin">
+                        <div className="w3-col l6 w3-padding">
                             <p>Náo perca seu tempo, mande uma mensagem agora para gente e agende um orçamento</p>
                         </div>
-                        <div className="w3-col l6">
+                        <div className="w3-col l6 w3-padding">
                             <p>De segunda-feira a sexta-feira</p>
                             <p><b>Das 07:00 as 17:00</b></p>
                         </div>

@@ -5,9 +5,9 @@ import Img1 from '../../../assets/hidraulica/img1.webp'
 import Img2 from '../../../assets/hidraulica/img2.webp'
 import Img3 from '../../../assets/hidraulica/img3.webp'
 
-function Template1() {
+function Template2() {
   return (
-    <div className="w3-col l4 m6 w3-margin-bottom">
+    <div className="w3-col l4 m6 w3-margin-bottom w3-container">
       <a href="#stillframe">
         <div className="w3-content w3-margin">
           <div id="myCarousel" className="carousel slide" data-ride="carousel">
@@ -25,13 +25,15 @@ function Template1() {
           </div>
         </div>
       </a>
-      <h3>Hidraulica</h3>
-      <p className="w3-opacity">Limpeza de dutos e calhas</p>
-      <p>
-        Não quer problemas ou vazamentos na sua obra? entre em contato.
-      </p>
-      <Button />
+      <div className="w3-content w3-margin">
+        <h3>Hidraulica</h3>
+        <p className="w3-opacity">Limpeza de dutos e calhas</p>
+        <p>
+          Não quer problemas ou vazamentos na sua obra? entre em contato.
+        </p>
+        <Button />
+      </div>
     </div>
   )
 }
-export default Template1
+export default Template2

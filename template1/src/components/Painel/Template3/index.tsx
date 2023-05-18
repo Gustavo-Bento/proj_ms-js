@@ -5,7 +5,7 @@ import Img3 from '../../../assets/stillframe/img3.webp'
 
 import Button from '../Button/index'
 
-function Template1() {
+function Template3() {
   return (
     <div className="w3-col l4 m6 w3-margin-bottom">
       <a href="">
@@ -13,7 +13,7 @@ function Template1() {
           <div id="myCarousel" className="carousel slide" data-ride="carousel">
             <div className="carousel-inner">
               <div className="item active">
-                <img src={Img1} alt="Ajuda" style={{ height: '25%' }} />
+                <img src={Img1} alt=" " style={{ height: '25%' }} />
               </div>
               <div className="item">
                 <img src={Img2} alt="Solução" style={{ height: '25%' }} />
@@ -25,14 +25,16 @@ function Template1() {
           </div>
         </div>
       </a>
-      <h3>Still Frame</h3>
-      <p className="w3-opacity">Solução para o encanamento</p>
-      <p>
+      <div className="w3-content w3-margin">
+        <h3>Still Frame</h3>
+        <p className="w3-opacity">Solução para o encanamento</p>
+        <p>
 
-        Se quer um telhado de confiança, utilize a estrutura mais duradora.
-      </p>
-      <Button />
+          Se quer um telhado de confiança, utilize a estrutura mais duradora.
+        </p>
+        <Button />
+      </div>
     </div>
   )
 }
-export default Template1
+export default Template3

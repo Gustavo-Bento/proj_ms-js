@@ -5,9 +5,9 @@ import Img3 from '../../../assets/calhas/img3.webp'
 
 function Template1() {
   return (
-    <div className="w3-col l4 m6 w3-margin-bottom">
+    <div className="w3-col l4 m6 w3-margin-bottom w3-container">
       <a href="#calhas">
-        <div className="w3-content w3-margin">
+        <div className=" w3-margin w3-content">
           <div id="myCarousel" className="carousel slide" data-ride="carousel">
             <div className="carousel-inner">
               <div className="item active">
@@ -23,13 +23,14 @@ function Template1() {
           </div>
         </div>
       </a>
-      <h3>Calhas e Rufos</h3>
-      <p className="w3-opacity">Solução para sua obra a longo prazo</p>
-      <p>
-        Se pretende ter um telhado sem preoucpações, contrate nossos serviços!
-      </p>
-
-      <Button />
+      <div className="w3-content w3-margin">
+        <h3>Calhas e Rufos</h3>
+        <p className="w3-opacity">Solução para sua obra a longo prazo</p>
+        <p>
+          Se pretende ter um telhado sem preoucpações, contrate nossos serviços!
+        </p>
+        <Button />
+      </div>
     </div>
   )
 }
