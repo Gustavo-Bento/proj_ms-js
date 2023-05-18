@@ -1,8 +1,8 @@
-import Fundo from '../../assets/galeria/img1.webp'
+import Fundo from '../../assets/info/img1.webp'
 
-function Gallery(){
+function Informations(){
     return(
-        <div id="galeria">
+        <div id="informacao">
             <header className="w3-display-container w3-content w3-wide" style={{ maxWidth: '1500px' }} id="home">
                 <img className="w3-image" src={Fundo} alt="mscalhas" width={1500} height="auto" />
             </header>
@@ -10,4 +10,4 @@ function Gallery(){
     )
 }
 
-export default Gallery
+export default Informations
