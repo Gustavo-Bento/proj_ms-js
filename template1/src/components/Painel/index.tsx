@@ -8,7 +8,7 @@ function Painel() {
             <div className="w3-light-grey w3-margin w3-wide-small">
                 <h2 className="w3-center">Serviços prestados com qualidade</h2>
             </div>
-            <div className="w3-row-padding">
+            <div className="w3-row-padding w3-content">
                 <Template1 />
                 <Template2 />
                 <Template3 />

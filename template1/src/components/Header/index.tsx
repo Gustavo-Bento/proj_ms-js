@@ -4,9 +4,9 @@ import Logo from '../../assets/logo.webp'
 
 function Header() {
     return (
-        <header className="w3-content w3-center" style={{ maxWidth: '2000px', marginTop: '46px' }} id="home">
-            <div className='w3-display-container'>
-                <img className="w3-image" src={Fundo} alt="mscalhas" width={1920} height="auto" />
+        <header id="home">
+            <div className='w3-display-container w3-center'>
+                <img className="w3-image" src={Fundo} alt="mscalhas" height="auto" />
                 <div className="w3-display-middle w3-center">
                     <img src={Logo} alt="Logo" style={{ width: '20%' }} className="w3-round w3-opacity-min w3-center" />
                     <h1 className="w3-xxlarge w3-text-white">
@@ -17,8 +17,6 @@ function Header() {
                     </h1>
                 </div>
             </div>
-
-
         </header>
     )
 }

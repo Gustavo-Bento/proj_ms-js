@@ -25,9 +25,9 @@ function Template1() {
       </a>
       <div className="w3-content w3-margin">
         <h3>Calhas e Rufos</h3>
-        <p className="w3-opacity">Solução para sua obra a longo prazo</p>
+        <p className="w3-opacity">A melhor solução em calhas e rufos</p>
         <p>
-          Se pretende ter um telhado sem preoucpações, contrate nossos serviços!
+          Para telhados sem preoucpações, contrate nossos serviços!
         </p>
         <Button />
       </div>
