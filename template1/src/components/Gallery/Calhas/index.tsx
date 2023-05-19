@@ -13,7 +13,7 @@ import Img12 from '../../../assets/galeria/calhas/img12.webp'
 
 function Calhas() {
     return (
-        <div id="calha" className='w3-padding w3-margin m3'>
+        <div id="calhas" className='w3-padding w3-margin m3'>
             <div className="w3-light-grey w3-wide-small">
                 <h2 className="w3-center w3-container">Calhas e Rufos</h2>
             </div>
