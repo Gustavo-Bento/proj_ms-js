@@ -7,15 +7,15 @@ function Toolbar() {
                 <div className="w3-right w3-hide-small">
                     <div className="w3-bar w3-light-grey">
                         <div className="w3-dropdown-hover 3-button">
-                            <button className="w3-button">Soluções</button>
+                                <a href="#galeria"  className="w3-button">Galeria</a>
                             <div className="w3-dropdown-content w3-bar-block w3-card-4">
-                                <a href="#calhas" className="w3-bar-item w3-button">Calhas</a>
-                                <a href="#stillframes" className="w3-bar-item w3-button">Still Frames</a>
+                                <a href="#calha" className="w3-bar-item w3-button">Calhas</a>
+                                <a href="#stillframe" className="w3-bar-item w3-button">Still Frames</a>
                                 <a href="#hidraulica" className="w3-bar-item w3-button">Hidraulica</a>
                             </div>
                         </div>
                         <div className="w3-dropdown-hover 3-button">
-                            <button className="w3-button">Empresa</button>
+                            <a href="#informacao" className="w3-button">Empresa</a>
                             <div className="w3-dropdown-content w3-bar-block w3-card-4">
                                 <a href="#contato" className="w3-bar-item w3-button">Contato</a>
                                 <a href="#endereco" className="w3-bar-item w3-button">Endereço</a>

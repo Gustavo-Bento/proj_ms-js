@@ -8,7 +8,7 @@ import Button from '../Button/index'
 function Template3() {
   return (
     <div className="w3-col l4 m6 w3-margin-bottom">
-      <a href="">
+      <a href="#hidraulica">
         <div className="w3-content w3-margin">
           <div id="myCarousel" className="carousel slide" data-ride="carousel">
             <div className="carousel-inner">
