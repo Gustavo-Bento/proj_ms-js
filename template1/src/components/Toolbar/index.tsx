@@ -11,16 +11,16 @@ function Toolbar() {
                         <div className="w3-dropdown-hover 3-button">
                                 <Link to={'galeria'}  className="w3-button">Galeria</Link>
                             <div className="w3-dropdown-content w3-bar-block w3-card-4">
-                                <a href="#calha" className="w3-bar-item w3-button">Calhas</a>
-                                <a href="#stillframe" className="w3-bar-item w3-button">Still Frames</a>
-                                <a href="#hidraulica" className="w3-bar-item w3-button">Hidraulica</a>
+                                <Link to={'calhas'} className="w3-bar-item w3-button">Calhas e Rufos</Link>
+                                <Link to={'stillframes'} className="w3-bar-item w3-button">Still Frames</Link>
+                                <Link to={'hidraulica'} className="w3-bar-item w3-button">Hidraulica</Link>
                             </div>
                         </div>
                         <div className="w3-dropdown-hover 3-button">
-                            <a href="#informacao" className="w3-button">Empresa</a>
+                            <Link to={'informacoes'} className="w3-button">Empresa</Link>
                             <div className="w3-dropdown-content w3-bar-block w3-card-4">
-                                <a href="#contato" className="w3-bar-item w3-button">Contato</a>
-                                <a href="#endereco" className="w3-bar-item w3-button">Endereço</a>
+                                <Link to={'contato'}  className="w3-bar-item w3-button">Contato</Link>
+                                <Link to={'endereco'} className="w3-bar-item w3-button">Endereço</Link>
                             </div>
                         </div>
                         <a href="#servicos" className="w3-bar-item w3-button">Serviços</a>

@@ -3,35 +3,38 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-
-import Toolbar from './components/Toolbar/index'
-import Header from './components/Header/index'
+import Toolbar from './components/Toolbar'
 import Footer from './components/Footer/index'
-import Content from './components/Content/index'
-import Informations from './components/Informations/index'
-import Gallery from './components/Gallery'
-import Calhas from './components/Gallery/Calhas'
-import StillFrames from './components/Gallery/StillFrames'
-import Hidraulica from './components/Gallery/Hidraulica';
+import Gallery from './components/Gallery/index'
+import Map from './components/Map/index'
+import Calhas from './components/Gallery/Calhas/index'
+import StillFrames from './components/Gallery/StillFrames/index'
+import Hidraulica from './components/Gallery/Hidraulica/index'
+import Contact from './components/Contact/index'
+import Painel from './components/Painel/index'
+import Index from './components/Index/index'
+import Informations from './components/Informations';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div>
-    <Routes>
-      <Route path='galeria' element={<Gallery/>} />
-      <Route path='calhas' element={<Calhas/>}/>
-      <Route path='stillframes' element={<StillFrames/>}/>
-      <Route path='hidraulica' element={<Hidraulica/>}/>
-    </Routes>
-      <Toolbar />
       <div className="w3-content" style={{ maxWidth: '2000px', marginTop: '46px' }}>
-        <Header />
-        <Informations />
-        <Content />
+      <Toolbar />
+        <Routes>
+          <Route index element={<Index/>} />
+          <Route path='informacoes' element={<Informations/>}/>
+          <Route path='servicos' element={<Painel/>}/>
+          <Route path='galeria' element={<Gallery/>} />
+          <Route path='calhas' element={<Calhas/>}/>
+          <Route path='stillframes' element={<StillFrames/>}/>
+          <Route path='hidraulica' element={<Hidraulica/>}/>
+          <Route path='contato' element={<Contact/>}/>
+          <Route path='endereco' element={<Map/>}/>
+        </Routes>
+        <Footer />
       </div>
-      <Footer />
   </div>
   )
 }

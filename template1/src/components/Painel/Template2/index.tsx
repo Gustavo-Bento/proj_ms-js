@@ -8,7 +8,7 @@ import Img3 from '../../../assets/hidraulica/img3.webp'
 function Template2() {
   return (
     <div className="w3-col l4 m6 w3-margin-bottom w3-container">
-      <a href="#hidraulica">
+      <a href="hidraulica">
         <div className="w3-content w3-margin">
           <div id="myCarousel" className="carousel slide" data-ride="carousel">
             <div className="carousel-inner">
