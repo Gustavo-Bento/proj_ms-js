@@ -4,10 +4,10 @@ import './style.css'
 function Contact() {
     return (
         <div className=" w3-container" id="contato">
-            <div className="w3-light-grey w3-margin w3-wide-small">
-                <h2 className="w3-center">Faça seu orçamento agora!</h2>
-            </div>
             <div className="w3-row w3-content">
+            <div className="w3-light-grey w3-wide-small">
+                <h2 className="w3-center w3-container">Faça seu orçamento agora!</h2>
+            </div>
                 <div className="w3-col m6 l6 w3-center">
                     <img className='ilustracao w3-right w3-margin' src={Figura1} width="100%" />
                 </div>

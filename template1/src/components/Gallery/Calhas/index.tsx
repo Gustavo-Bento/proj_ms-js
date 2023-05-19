@@ -13,12 +13,13 @@ import Img12 from '../../../assets/galeria/calhas/img12.webp'
 
 function Calhas() {
     return (
-        <div>
-            <div id="calhas" className="w3-light-grey w3-margin w3-wide-small">
-                <h3 className="w3-center">Calhas e Rufos</h3>
+        <div id="calha" className='w3-padding w3-margin m3'>
+            <div className="w3-light-grey w3-wide-small">
+                <h2 className="w3-center w3-container">Calhas e Rufos</h2>
             </div>
             <div className="w3-row w3-display-container w3-center" id="myGrid" style={{ marginBottom: '128px' }}>
                 <div className="w3-third">
+                    <div className="w3-display-topright w3-black w3-padding">Calhas e Rufos</div>
                     <img src={Img1} style={{ width: '100%' }} />
                     <img src={Img6} style={{ width: '50%' }} />
                     <img src={Img3} style={{ width: '50%' }} />
