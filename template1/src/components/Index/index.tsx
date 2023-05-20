@@ -1,19 +1,19 @@
 import Header from "../Header"
-import Painel from "../Painel"
-import Informations from "../Informations"
-import Gallery from "../Gallery/HeaderGallery"
-import Contact from "../Contact"
-import Map from "../Map"
+import SimplePainel from "../Painel/SimplePainel/index"
+import Informations from "../Informations/index"
+import Gallery from "../Gallery/index"
+import SimpleContact from "../Contact/SimpleContact/index"
+import SimpleMap from "../Map/SimpleMap/index"
 
 function Index() {
     return(
         <div>
             <Header/>
             <Informations />
-            <Painel/>
+            <SimplePainel/>
             <Gallery/>
-            <Contact/>
-            <Map />
+            <SimpleContact/>
+            <SimpleMap />
         </div>
     )
 }

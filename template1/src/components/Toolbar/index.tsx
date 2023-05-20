@@ -4,8 +4,8 @@ function Toolbar() {
     return (
         <header className="w3-top">
             <div className="w3-bar w3-white w3-wide w3-padding w3-card">
-                <a href="#home" className="w3-bar-item w3-button"><b>MS</b> Calhas & Hidraulica
-                </a>
+                <Link to={'/'} className="w3-bar-item w3-button"><b>MS</b> Calhas & Hidraulica
+                </Link>
                 <div className="w3-right w3-hide-small">
                     <div className="w3-bar w3-light-grey">
                         <div className="w3-dropdown-hover 3-button">

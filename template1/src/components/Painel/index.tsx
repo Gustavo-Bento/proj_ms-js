@@ -16,10 +16,9 @@ function Painel() {
                 />
             </div>
             <div className="w3-row-padding w3-content">
-                
-            <div className="w3-light-grey w3-wide-small">
-                <h2 className="w3-center w3-container">Veja nossos principais serviços!</h2>
-            </div>
+                <div className="w3-light-grey w3-wide-small">
+                    <h2 className="w3-center w3-container">Veja nossos principais serviços!</h2>
+                </div>
                 <Calhas />
                 <Hidraulica />
                 <StillFrame />
