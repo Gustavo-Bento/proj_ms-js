@@ -1,10 +1,20 @@
 
 import Figura1 from '../../assets/contato/personagem.svg'
+import Header from '../../assets/contato/img1.webp'
 import './style.css'
 
 function Contact() {
     return (
-        <div className=" w3-container" id="contato">
+        <div className="w3-content w3-center" style={{ maxWidth: '2000px', marginTop: '46px' }} id="contato" >
+            <div id="galeria" className="w3-display-container w3-center">
+                <img
+                    className="w3-image"
+                    src={Header}
+                    alt="mscalhas"
+                    width={2000}
+                    height="auto"
+                />
+            </div>
             <div className="w3-row w3-content">
             <div className="w3-light-grey w3-wide-small">
                 <h2 className="w3-center w3-container">Faça seu orçamento agora!</h2>

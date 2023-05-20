@@ -23,7 +23,7 @@ function Toolbar() {
                                 <Link to={'endereco'} className="w3-bar-item w3-button">Endereço</Link>
                             </div>
                         </div>
-                        <a href="#servicos" className="w3-bar-item w3-button">Serviços</a>
+                        <Link to={'servicos'} className="w3-bar-item w3-button">Serviços</Link>
                     </div>
 
                 </div>

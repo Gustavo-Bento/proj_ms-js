@@ -1,7 +1,7 @@
 import Header from "../Header"
 import Painel from "../Painel"
 import Informations from "../Informations"
-import Gallery from "../Gallery"
+import Gallery from "../Gallery/HeaderGallery"
 import Contact from "../Contact"
 import Map from "../Map"
 
