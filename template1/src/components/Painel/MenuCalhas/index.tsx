@@ -1,3 +1,4 @@
+import {Link} from "react-router-dom"
 import Button from '../Button/index'
 import Img1 from '../../../assets/calhas/img1.webp'
 import Img2 from '../../../assets/calhas/img2.webp'
@@ -6,7 +7,7 @@ import Img3 from '../../../assets/calhas/img3.webp'
 function Template1() {
   return (
     <div className="w3-col l4 m6 w3-margin-bottom w3-container">
-      <a href="calhas">
+      <Link to={'calhas'}>
         <div className=" w3-margin w3-content">
           <div id="myCarousel" className="carousel slide" data-ride="carousel">
           
@@ -26,7 +27,7 @@ function Template1() {
             </div>
           </div>
         </div>
-      </a>
+      </Link>
       <div className="w3-content w3-margin">
         <p className="w3-opacity">A melhor solução em calhas e rufos</p>
         <p>

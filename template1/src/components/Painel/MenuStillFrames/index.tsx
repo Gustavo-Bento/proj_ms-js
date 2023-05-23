@@ -1,4 +1,4 @@
-
+import {Link} from "react-router-dom"
 import Img1 from '../../../assets/stillframe/img1.webp'
 import Img2 from '../../../assets/stillframe/img2.webp'
 import Img3 from '../../../assets/stillframe/img3.webp'
@@ -8,7 +8,7 @@ import Button from '../Button/index'
 function Template3() {
   return (
     <div className="w3-col l4 m6 w3-margin-bottom">
-      <a href="stillframe">
+      <Link to={'stillframes'}>
         <div className="w3-content w3-margin">
           <div id="myCarousel" className="carousel slide" data-ride="carousel">
             <div className="carousel-inner">
@@ -27,7 +27,7 @@ function Template3() {
             </div>
           </div>
         </div>
-      </a>
+      </Link>
       <div className="w3-content w3-margin">
         <p className="w3-opacity">Estrutura duradoura para seu lar</p>
         <p>
