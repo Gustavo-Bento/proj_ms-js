@@ -1,27 +1,27 @@
-import Img1 from '../../../assets/galeria/stillframes/img1.webp'
-import Img2 from '../../../assets/galeria/stillframes/img2.webp'
-import Img3 from '../../../assets/galeria/stillframes/img3.webp'
-import Img4 from '../../../assets/galeria/stillframes/img4.webp'
-import Img5 from '../../../assets/galeria/stillframes/img5.webp'
-import Img6 from '../../../assets/galeria/stillframes/img6.webp'
-import Img7 from '../../../assets/galeria/stillframes/img7.webp'
-import Img8 from '../../../assets/galeria/stillframes/img8.webp'
-import Img9 from '../../../assets/galeria/stillframes/img9.webp'
-import Img10 from '../../../assets/galeria/stillframes/img10.webp'
-import Img11 from '../../../assets/galeria/stillframes/img11.webp'
-import Img12 from '../../../assets/galeria/stillframes/img12.webp'
+import Img1 from '../../../assets/galeria/steelframes/img1.webp'
+import Img2 from '../../../assets/galeria/steelframes/img2.webp'
+import Img3 from '../../../assets/galeria/steelframes/img3.webp'
+import Img4 from '../../../assets/galeria/steelframes/img4.webp'
+import Img5 from '../../../assets/galeria/steelframes/img5.webp'
+import Img6 from '../../../assets/galeria/steelframes/img6.webp'
+import Img7 from '../../../assets/galeria/steelframes/img7.webp'
+import Img8 from '../../../assets/galeria/steelframes/img8.webp'
+import Img9 from '../../../assets/galeria/steelframes/img9.webp'
+import Img10 from '../../../assets/galeria/steelframes/img10.webp'
+import Img11 from '../../../assets/galeria/steelframes/img11.webp'
+import Img12 from '../../../assets/galeria/steelframes/img12.webp'
 
-function StillFrames() {
+function SteelFrames() {
     return (
-        <div id="stillframe" className='w3-padding w3-margin m3'>
+        <div id="steelframe" className='w3-padding w3-margin m3'>
 
             <div className="w3-light-grey w3-wide-small">
-                <h2 className="w3-center w3-container">Still Frames</h2>
+                <h2 className="w3-center w3-container">Steel Frames</h2>
             </div>
             <div className="w3-row w3-display-container w3-center" id="myGrid" style={{ marginBottom: '128px' }}>
                 <div className="w3-third">
                     <img src={Img3} style={{ width: '50%' }} />
-                    <div className="w3-display-topright w3-black w3-padding">Still Frames</div>
+                    <div className="w3-display-topright w3-black w3-padding">Steel Frames</div>
                     <img src={Img5} style={{ width: '50%' }} />
                     <img src={Img1} style={{ width: '100%' }} />
                     <img src={Img2} style={{ width: '100%' }} />
@@ -31,7 +31,6 @@ function StillFrames() {
                     <img src={Img8} style={{ width: '100%' }} />
                     <img src={Img10} style={{ width: '50%' }} />
                     <img src={Img9} style={{ width: '50%' }} />
-
                 </div>
                 <div className="w3-third">
                     <img src={Img11} style={{ width: '50%' }} />
@@ -44,4 +43,4 @@ function StillFrames() {
     )
 }
 
-export default StillFrames
+export default SteelFrames

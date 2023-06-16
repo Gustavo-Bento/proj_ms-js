@@ -1,6 +1,6 @@
 import Calhas from "./MenuCalhas/index"
 import Hidraulica from "./MenuHidraulica/index"
-import StillFrame from "./MenuStillFrames/index"
+import SteelFrame from "./MenuSteelFrames/index"
 import Header from '../../assets/painel/img1.webp'
 
 function Painel() {
@@ -21,7 +21,7 @@ function Painel() {
                 </div>
                 <Calhas />
                 <Hidraulica />
-                <StillFrame />
+                <SteelFrame />
             </div>
         </div>
     )

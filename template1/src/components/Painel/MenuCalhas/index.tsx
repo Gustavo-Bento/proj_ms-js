@@ -7,7 +7,7 @@ import Img3 from '../../../assets/calhas/img3.webp'
 function Template1() {
   return (
     <div className="w3-col l4 m6 w3-margin-bottom w3-container">
-      <Link to={'calhas'}>
+      <Link to={'/calhas'}>
         <div className=" w3-margin w3-content">
           <div id="myCarousel" className="carousel slide" data-ride="carousel">
           

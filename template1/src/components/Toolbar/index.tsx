@@ -12,8 +12,8 @@ function Toolbar() {
                                 <Link to={'galeria'}  className="w3-button">Galeria</Link>
                             <div className="w3-dropdown-content w3-bar-block w3-card-4">
                                 <Link to={'calhas'} className="w3-bar-item w3-button">Calhas e Rufos</Link>
-                                <Link to={'stillframes'} className="w3-bar-item w3-button">Still Frames</Link>
-                                <Link to={'hidraulica'} className="w3-bar-item w3-button">Hidraulica</Link>
+                                <Link to={'steelframes'} className="w3-bar-item w3-button">Steel Frames</Link>
+                                <Link to={'hidraulica'} className="w3-bar-item w3-button">Hidráulica</Link>
                             </div>
                         </div>
                         <div className="w3-dropdown-hover 3-button">

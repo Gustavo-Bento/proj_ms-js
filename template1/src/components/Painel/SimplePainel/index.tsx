@@ -1,6 +1,6 @@
 import Calhas from "../MenuCalhas/index"
 import Hidraulica from "../MenuHidraulica/index"
-import StillFrame from "../MenuStillFrames/index"
+import SteelFrame from "../MenuSteelFrames/index"
 
 function SimplePainel() {
     return (
@@ -11,7 +11,7 @@ function SimplePainel() {
                 </div>
                 <Calhas />
                 <Hidraulica />
-                <StillFrame />
+                <SteelFrame />
             </div>
         </div>
     )

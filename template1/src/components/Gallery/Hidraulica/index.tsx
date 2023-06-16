@@ -12,12 +12,12 @@ function Hidraulica() {
     return (
         <div id="hidraulica" className='w3-padding w3-margin m3'>
             <div className="w3-light-grey w3-wide-small">
-                <h2 className="w3-center w3-container">Hidraulica</h2>
+                <h2 className="w3-center w3-container">Hidráulica</h2>
             </div>
             <div className="w3-row w3-display-container w3-center" id="myGrid" style={{ marginBottom: '128px' }}>
                 <div className="w3-third">
                     <img src={Img7} style={{ width: '100%' }} />
-                    <div className="w3-display-topright w3-black w3-padding">Hidraulica</div>
+                    <div className="w3-display-topright w3-black w3-padding">Hidráulica</div>
                     <img src={Img1} style={{ width: '50%' }} />
                     <img src={Img2} style={{ width: '50%' }} />
                 </div>
