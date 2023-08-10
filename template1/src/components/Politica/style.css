@@ -1,0 +1,29 @@
+
+@media (min-width: 600px){
+    .ilustracao{
+        display: flex;
+        width: 50%;
+    }
+}
+@media (max-width: 599px){
+    .ilustracao{
+        display: none;
+        
+    }
+    p,a{
+        font-size: 12px;
+    }
+    h2{
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+@media (max-width: 900px){
+    a,p{
+        font-size: 12px;
+    }
+    h4{
+        font-size: 20px;
+        font-weight: 500;
+    }
+}

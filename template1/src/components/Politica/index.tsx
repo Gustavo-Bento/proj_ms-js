@@ -1,5 +1,5 @@
-
-import '../style.css'
+import Figura1 from '../../assets/contato/personagem.svg'
+import './style.css'
 
 function Politica() {
     return (
