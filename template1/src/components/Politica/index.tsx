@@ -3,7 +3,7 @@ import './style.css'
 
 function Politica() {
     return (
-        <div className="w3-row w3-container">
+        <div className="w3-row w3-content">
             <div className="w3-light-grey w3-wide-small">
                 <h2 className="w3-center w3-container">Veja nossas politicas!</h2>
             </div>
