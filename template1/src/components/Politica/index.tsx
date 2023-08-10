@@ -3,7 +3,7 @@ import './style.css'
 
 function Politica() {
     return (
-        <div className="w3-row w3-content">
+        <div className="w3-row w3-container">
             <div className="w3-light-grey w3-wide-small">
                 <h2 className="w3-center w3-container">Veja nossas politicas!</h2>
             </div>
@@ -11,7 +11,7 @@ function Politica() {
                 <div className="w3-blue-grey w3-margin w3-padding">
                     <h4 className='w3-center'><b>Politicas de privacidade</b></h4>
                 </div>
-                <div className="l7 w3-padding w3-justify">
+                <div className="l7 w3-padding w3-justify w3-content">
                     <p>A sua privacidade é importante para nós. É política do MS Calhas respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site MS Calhas, e outros sites que possuímos e operamos.
 
                         Solicitamos informações pessoais apenas quando realmente precisamos delas para lhe fornecer um serviço. Fazemo-lo por meios justos e legais, com o seu conhecimento e consentimento. Também informamos por que estamos coletando e como será usado.
