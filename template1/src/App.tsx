@@ -14,6 +14,7 @@ import Contact from './components/Contact/index'
 import Painel from './components/Painel/index'
 import Index from './components/Index/index'
 import Informations from './components/Informations';
+import Politica from './components/Politica';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -32,6 +33,7 @@ function App() {
           <Route path='hidraulica' element={<Hidraulica/>}/>
           <Route path='contato' element={<Contact/>}/>
           <Route path='endereco' element={<Map/>}/>
+          <Route path='politica' element={<Politica/>}/>
         </Routes>
         <Footer />
       </div>
