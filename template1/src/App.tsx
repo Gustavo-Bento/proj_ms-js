@@ -22,7 +22,7 @@ function App() {
   return (
     <div>
       <div className="w3-content" style={{ maxWidth: '2000px', marginTop: '46px' }}>
-      <Toolbar />
+      <Toolbar 
         <Routes>
           <Route index element={<Index/>} />
           <Route path='informacoes' element={<Informations/>}/>
